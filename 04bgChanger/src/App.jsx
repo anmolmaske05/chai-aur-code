@@ -16,11 +16,17 @@ function App() {
 
           <button onClick={() => { setColor("purple") }} className="outline-none px-4 rounded-full py-1" style={{ backgroundColor: "purple" }}>Purple</button>
 
-          <button onClick={() => { setColor("olive") }} className="outline-none px-4 rounded-full py-1" style={{ backgroundColor: "olive" }}>olive</button>
+          <button onClick={() => { setColor("olive") }} className="outline-none px-4 rounded-full py-1" style={{ backgroundColor: "olive" }}>Olive</button>
 
-          <button onClick={() => { setColor("white") }} className="outline-4 px-4 rounded-full py-1" style={{ backgroundColor: "white" }}>white</button>
+          <button onClick={() => { setColor("white") }} className="outline-4 px-4 rounded-full py-1" style={{ backgroundColor: "white" }}>White</button>
 
           <button onClick={() => { setColor("gray") }} className="outline-none px-4 rounded-full py-1" style={{ backgroundColor: "gray" }}>Gray</button>
+
+          <button onClick={() => { setColor("lightblue") }} className="outline-none px-4 rounded-full py-1" style={{ backgroundColor: "lightblue" }}>Light Blue</button>
+
+          <button onClick={() => { setColor("yellow") }} className="outline-none px-4 rounded-full py-1" style={{ backgroundColor: "yellow" }}>Yellow</button>
+
+          <button onClick={() => { setColor("lightpink") }} className="outline-none px-4 rounded-full py-1" style={{ backgroundColor: "lightpink" }}>Light Pink</button>
         </div>
       </div>
     </div>
